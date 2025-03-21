@@ -1,14 +1,11 @@
 import './App.css';
-import Cabecalho from './components/Cabecalho/Cabecalho';
-import Rodape from './components/Cabecalho/Rodape/Rodape';
-import Welcome from './components/Cabecalho/Welcome/Welcome';
+import PHome from './pages/PHome/PHome';
+
 function App() {
 
   return (
     <>
-      <Cabecalho />
-      <Welcome />
-      <Rodape />
+      <PHome />
     </>
   )
 }
